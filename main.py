@@ -64,5 +64,6 @@ for i in range(len(x_change)-1):
         plt.plot(cur_x, func(cur_x), color)
     else:
         plt.plot(cur_x, func(cur_x), switch_color())
+
 plt.grid ()
 plt.show ()
